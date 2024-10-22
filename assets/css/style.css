@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+.todo-app {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+#todoInput {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px 15px;
+  background-color: #d72525;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 22px;
+}
+button.edit {
+  padding: 5px 3px;
+}
+button:hover {
+  background-color: #a11717;
+}
+li {
+  list-style: none;
+  padding: 5px 10px;
+  background: #c7c7c7;
+  color: white;
+  width: auto;
+}
+ul {
+  padding: 0;
+}
+
+li span[style*="line-through"] {
+  color: #2572d7;
+  opacity: 0.7;
+}
