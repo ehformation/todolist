@@ -27,13 +27,13 @@ function addTodo() {
 
     const editBtn = document.createElement("button");
     editBtn.classList = "edit";
-    editBtn.innerText = "Modifier";
+    editBtn.innerHTML = '<i class="fa-solid fa-pen"></i>';
     editBtn.onclick = function () {
       editTodo(todoEl);
     };
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.innerText = "Supprimer";
+    deleteBtn.innerHTML = '<i class="fa-solid fa-delete-left"></i>';
     deleteBtn.onclick = function () {
       deleteTodo(todoList, todoEl);
     };

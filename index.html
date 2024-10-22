@@ -5,13 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fast Todo</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f0bbc58a54.js"
+      ;crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="todo-app">
       <div class="todo-app">
         <input type="text" id="todoInput" placeholder="Ajoutez une tâche..." />
-        <button onclick="addTodo()">+ Ajouter des taches</button>
-        <button id="checkAll">Tout cocher</button>
+        <button onclick="addTodo()">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        <button id="checkAll"><i class="fa-solid fa-check-double"></i></button>
         <ul id="todoList"></ul>
       </div>
     </div>
