@@ -68,7 +68,7 @@ function editTodo(todoEl) {
     todoEl.innerHTML = newText;
     // Ajouter à nouveau le bouton de modification
     const editBtn = document.createElement("button");
-    editBtn.innerText = "Modifier";
+    editBtn.innerText = "<i class='fa-solid fa-pen'></i>";
     editBtn.classList = "edit";
     editBtn.onclick = function () {
       editTodo(todoEl);
