@@ -13,7 +13,7 @@ function addTodo() {
     alert("Veuillez entrer une tâche!");
     return;
   } else if (todoInput.value.length <= 3) {
-    alert("Pas assez de caractere !");
+    alert("Il n'y a pas assez de caractères !");
     return;
   }
 
