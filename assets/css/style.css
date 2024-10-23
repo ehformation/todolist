@@ -27,9 +27,6 @@ button {
   cursor: pointer;
   margin-left: 22px;
 }
-button.edit {
-  padding: 5px 3px;
-}
 button:hover {
   background-color: #a11717;
 }
